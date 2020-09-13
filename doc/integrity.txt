@@ -1,3 +1,3 @@
-instances checked:  373
-checks made:  2180
+instances checked:  330
+checks made:  2006
 errors found:  

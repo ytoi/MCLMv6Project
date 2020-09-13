@@ -183,6 +183,7 @@ else
 end if;
 
 self.number = self.number + 1;
+
 create event instance aTick of SR2:tick to self;
 timer_handle = TIM::timer_start(event_inst : aTick, microseconds : 4 ); /* loop 4msec */
 ',
